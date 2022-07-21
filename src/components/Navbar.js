@@ -20,16 +20,16 @@ export default function navbar() {
         <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">upper body</a>
+        <a className="nav-link" href="/upper-body">upper body</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">lower body</a>
+        <a className="nav-link" href="/lower-body">lower body</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">footwear </a>
+        <a className="nav-link" href="/footwear">footwear </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">accesories </a>
+        <a className="nav-link" href="/accesories">accesories </a>
       </li>
     </ul>
   </div>
