@@ -8,6 +8,7 @@ function Home() {
     <div className="App">
     <Navbar/>
     <Carousel/>
+    <h2>New Arrivals</h2>
   </div>
   )
 }
