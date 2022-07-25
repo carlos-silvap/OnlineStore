@@ -1,17 +1,17 @@
 import React from 'react';
 import Catalog from "react-catalog-view";
+import Tank from "../img/upper/ASYMMETRIC-TANK-TOP.jpg";
     
     function ProductData(props){
       let products = 
        [
          {
-            id: 1,
             title: "Canvas",
             description: "High quality canvas shoes.",
             price: "20",
             discounted: "15",
             currency: "$",
-            image: "http://domain.com/images/1.jpg",
+            image: {Tank},
          },
          {
             id: 2,
@@ -20,7 +20,7 @@ import Catalog from "react-catalog-view";
             price: "25",
             currency: "$",
             discounted: "15",
-            image: "http://domain.com/images/5.jpg",
+            image: "../img/upper/ASYMMETRIC-TANK-TOP.jpg",
          },
          {
             id: 3,
