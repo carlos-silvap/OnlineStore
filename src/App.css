@@ -50,7 +50,7 @@ body{
 
 /* NAVBAR */
 .logo{
-  width: 4rem;
+  width: 13rem;
 }
 
 /* NAV LINKS */ 
@@ -83,4 +83,16 @@ footer{
 }
 .list-inline-item{
   padding-left: 0.95rem;
+}
+
+/*HOME */
+#quote{
+  padding-top:3rem;
+}
+
+#arrivals{
+  padding-top:3rem;
+  padding-bottom:2rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }

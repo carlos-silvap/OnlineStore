@@ -10,8 +10,8 @@ function Home() {
     <div className="App">
     <Navbar/>
     <Carousel/>
-    <h3>Make it simple, but significant.</h3>
-    <h2>New Arrivals</h2>
+    <h3 id="quote">- Make it simple, but significant -</h3>
+    <h2 id="arrivals">New Arrivals</h2>
     <div className="container">
       <Arrivals/>
     </div>
